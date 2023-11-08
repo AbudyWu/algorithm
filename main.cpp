@@ -191,9 +191,9 @@ int main(int argc, char **argv)
     {
         for (size_t j = 0; j < 2; j++)
         {
-            cout << line[i][j] << " ";
+            fout << line[i][j] << " ";
         }
-        cout << endl;
+        fout << endl;
     }
 
     // // print mis stage
